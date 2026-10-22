@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Белая раскрытая книга — передний план адаптивной иконки.
+     Полотно 108x108 dp, безопасная зона по центру 66 dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Левая страница -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 C49,37.5 42,35 33,35 L33,71 C42,71 49,73.5 54,78 Z" />
+
+    <!-- Правая страница -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 C59,37.5 66,35 75,35 L75,71 C66,71 59,73.5 54,78 Z" />
+
+    <!-- Корешок -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52.5,42 L55.5,42 L55.5,78 L52.5,78 Z" />
+
+    <!-- Строчки на левой странице -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M37,42.5 C42,43 47,44.5 51,47 L51,50 C47,47.5 42,46 37,45.5 Z" />
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M37,50 C42,50.5 47,52 51,54.5 L51,57.5 C47,55 42,53.5 37,53 Z" />
+
+    <!-- Строчки на правой странице -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M57,47 C61,44.5 66,43 71,42.5 L71,45.5 C66,46 61,47.5 57,50 Z" />
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M57,54.5 C61,52 66,50.5 71,50 L71,53 C66,53.5 61,55 57,57.5 Z" />
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        XML-тема нужна Activity только до того, как Compose нарисует интерфейс.
+        Вся настоящая тема (цвета, типографика) задаётся в BookLibraryTheme (ui/theme/Theme.kt).
+    -->
+    <style name="Theme.BookLibrary" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
